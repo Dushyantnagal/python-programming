@@ -1,0 +1,14 @@
+amount=float(input("Enter amount: ")) -100
+
+twok= amount//2000
+amount=amount-twok * 2000
+
+fiveh=amount//500
+amount=amount-fiveh * 500
+
+oneh=amount//100
+
+
+print("TNumber of two thousand notes: ",twok)
+print("Number of five hunder notes: ",fiveh)
+print("Number of one hunderd notes: ",oneh+1)
