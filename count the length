@@ -1,0 +1,7 @@
+n=int(input('Enter the digits'))
+cp=n
+s=0
+while n !=0:
+     s+=1
+     n=n//10
+print('Number of digits',s)
